@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dc.dao.MsStoresDao">
+    <select id="findById" parameterType="int" resultType="com.dc.pojo.MsStores">
+        select * from ms_stores where store_id=#{id};
+    </select>
+    <select id="getStoreList" resultType="com.dc.pojo.MsStores">
+        select * from ms_stores where status=1;
+    </select>
+</mapper>

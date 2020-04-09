@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dc.dao.WpSpotDao">
+    <select id="findSpotById" parameterType="int" resultType="com.dc.pojo.WpSpot">
+        select * from wp_spots where spot_id=#{spot_id};
+    </select>
+
+    <select id="getFreeSpotList" resultType="com.dc.pojo.WpSpot" parameterType="int">
+        select * from wp_spots where work_status=1 and occupy_status=0 and park_id=#{park_id} order by spot_serial;
+    </select>
+
+    <select id="getSpotList" resultType="com.dc.pojo.WpSpotList" parameterType="int">
+        select * from wp_spot_list where status=1 and park_id=#{park_id} order by spot_name;
+    </select>
+
+    <update id="upSpotOccupyStatus" parameterType="int">
+        update wp_spots set occupy_status=#{occupy_status},last_modify=now() where spot_id=#{spot_id};
+    </update>
+    <update id="upSpotWordStatus" parameterType="int">
+        update wp_spots set work_status=#{work_status},last_modify=now() where spot_id=#{spot_id};
+    </update>
+    <update id="upSpotOrder" parameterType="int">
+        update wp_spots set occupy_status=2 ,last_modify=now() where spot_id=#{spot_id};
+    </update>
+
+    <update id="upSpotBusy" parameterType="int">
+        update wp_spots set occupy_status=1,last_modify=now() where spot_id=#{spot_id};
+    </update>
+
+    <update id="upSpotFree" parameterType="int">
+        update wp_spots set occupy_status=0,last_modify=now() where spot_id=#{spot_id};
+    </update>
+
+    <insert id="addSpot" parameterType="com.dc.pojo.WpSpot" useGeneratedKeys="true">
+        insert into wp_spots(park_id,spot_serial,spot_site,create_time,last_modify)values
+        (#{park_id},#{spot_serial},#{spot_site},now(),now());
+    </insert>
+
+    <insert id="addSpotList" parameterType="com.dc.pojo.WpSpotList" useGeneratedKeys="true">
+        insert into wp_spot_list(park_id,spot_name,spot_type,free_spot,create_time,last_modify)values
+        (#{park_id},#{spot_name},#{spot_type},#{free_spot},now(),now());
+    </insert>
+
+    <update id="upSpotListFreeSpot" parameterType="com.dc.pojo.WpSpotList">
+        update wp_spot_list set free_spot=#{free_spot} ,last_modify=now() where spot_list_id=#{spot_list_id};
+    </update>
+    <select id="findSpotList" parameterType="com.dc.pojo.WpSpotList" resultType="com.dc.pojo.WpSpotList">
+        select * from wp_spot_list where park_id=#{park_id} and spot_name=#{spot_name};
+    </select>
+    <select id="findSpotListById" parameterType="int" resultType="com.dc.pojo.WpSpotList">
+        select * from wp_spot_list where spot_list_id=#{spot_list_id};
+    </select>
+    <select id="getListDetail" parameterType="com.dc.pojo.WpSpotList" resultType="com.dc.pojo.WpSpot">
+        select * from wp_spots where park_id=#{park_id} and spot_serial like concat('%',#{spot_name,jdbcType=VARCHAR},'%') order by spot_serial;
+    </select>
+</mapper>

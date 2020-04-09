@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mobileShop:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a8deb3a-03d1-4ff0-89fa-e33e0d3a76be" name="Default Changelist" comment="first idea project commit">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/coding_mobileShop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mobileShop_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/_warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobileShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/coding_mobileShop/campusApp - 快捷方式.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/coding_mobileShop/coding_mobileShop.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/coding_mobileShop/perfect - 快捷方式.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/META-INF/mobileShop.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/contants/BaseContants$FIELD_TYPE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/contants/BaseContants$OPERATION_TYPE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/contants/BaseContants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/contants/ErrorMesgEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/listener/WebappListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/pojo/BaseModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/pojo/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/pojo/QueryParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/util/Md5Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/util/PageList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/util/TimeListener$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/util/TimeListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/base/util/TimeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/controller/MsGoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/controller/MsOrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/controller/MsShopcarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/controller/MsStoresController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/controller/WpParkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/controller/WpSpotController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/controller/WpSpotOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/dao/MsGoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/dao/MsOrdersDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/dao/MsShopcarDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/dao/MsStoresDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/dao/WpParkDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/dao/WpSpotDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/dao/WpSpotOrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsGoodDetail$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsGoodDetail$GoodDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsGoodDetail$StoreDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsGoodDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsOrders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsShopcar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsShoppingCart$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsShoppingCart$CartGood.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/MsStores.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/WpPark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/WpSpot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/WpSpotList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/WpSpotOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/pojo/WpSpotOrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/MsGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/MsOrdersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/MsShopcarService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/MsStoresService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/WpParkService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/WpSpotOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/WpSpotService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/impl/MsGoodsImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/impl/MsOrderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/impl/MsShopcarImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/impl/MsStoresImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/impl/UserImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/impl/WpParkImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/impl/WpSpotImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/impl/WpSpotOrderImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/impl/WpSpotOrderImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/com/dc/service/impl/WpSpotOrderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/mapperImpl/MsGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/mapperImpl/MsOrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/mapperImpl/MsShopcarMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/mapperImpl/MsStoresMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/mapperImpl/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/mapperImpl/WpParkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/mapperImpl/WpSpotMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/mapperImpl/WpSpotOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/classes/springMvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/classmate-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/fastjson-1.2.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/guava-15.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/jackson-annotations-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/jackson-core-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/jackson-databind-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/javaee-api-7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/javax.mail-1.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/joda-time-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/mybatis-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/pagehelper-4.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/spring-beans-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/spring-context-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/spring-core-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/spring-expression-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/spring-jdbc-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/spring-tx-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/spring-webmvc-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/swagger-annotations-1.3.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/swagger-models-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/swagger-springmvc-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/img/advertisement/img_ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/img/user_head/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/img/user_head/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/img/user_head/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/css/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/fonts/DroidSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/fonts/DroidSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/images/collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/images/expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/images/explorer_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/images/logo_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/images/pet_store_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/images/wordnik_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/geo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/ko-kr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/translator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/backbone-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/es5-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/handlebars-4.0.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/highlight.9.1.0.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/highlight.9.1.0.pack_extended.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/jquery.ba-bbq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/jquery.slideto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/jquery.wiggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/js-yaml.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/jsoneditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/lodash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/marked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/object-assign-pollyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/sanitize-html.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/lib/swagger-oauth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/o2c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mobileShop_Web_exploded/swagger/swagger-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/contants/BaseContants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/contants/ErrorMesgEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/listener/WebappListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/pojo/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/pojo/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/pojo/QueryParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/util/Md5Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/util/PageList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/base/com/dc/base/util/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/controller/MsGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/controller/MsOrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/controller/MsShopcarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/controller/MsStoresController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/controller/WpParkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/controller/WpSpotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/controller/WpSpotOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/dao/MsGoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/dao/MsOrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/dao/MsShopcarDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/dao/MsStoresDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/dao/WpParkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/dao/WpSpotDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/dao/WpSpotOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/MsGoodDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/MsGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/MsOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/MsShopcar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/MsShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/MsStores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/WpPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/WpSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/WpSpotList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/WpSpotOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/pojo/WpSpotOrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/MsGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/MsOrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/MsShopcarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/MsStoresService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/WpParkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/WpSpotOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/WpSpotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/impl/MsGoodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/impl/MsOrderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/impl/MsShopcarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/impl/MsStoresImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/impl/UserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/impl/WpParkImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/impl/WpSpotImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dc/service/impl/WpSpotOrderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapperImpl/MsGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapperImpl/MsOrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapperImpl/MsShopcarMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapperImpl/MsStoresMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapperImpl/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapperImpl/WpParkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapperImpl/WpSpotMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapperImpl/WpSpotOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springMvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/mobileShop.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/contants/BaseContants$FIELD_TYPE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/contants/BaseContants$OPERATION_TYPE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/contants/BaseContants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/contants/ErrorMesgEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/listener/WebappListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/pojo/BaseModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/pojo/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/pojo/QueryParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/util/Md5Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/util/PageList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/util/TimeListener$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/util/TimeListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/base/util/TimeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/controller/MsGoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/controller/MsOrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/controller/MsShopcarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/controller/MsStoresController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/controller/WpParkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/controller/WpSpotController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/controller/WpSpotOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/dao/MsGoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/dao/MsOrdersDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/dao/MsShopcarDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/dao/MsStoresDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/dao/WpParkDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/dao/WpSpotDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/dao/WpSpotOrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsGoodDetail$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsGoodDetail$GoodDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsGoodDetail$StoreDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsGoodDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsOrders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsShopcar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsShoppingCart$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsShoppingCart$CartGood.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/MsStores.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/WpPark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/WpSpot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/WpSpotList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/WpSpotOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/pojo/WpSpotOrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/MsGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/MsOrdersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/MsShopcarService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/MsStoresService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/WpParkService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/WpSpotOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/WpSpotService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/impl/MsGoodsImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/impl/MsOrderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/impl/MsShopcarImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/impl/MsStoresImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/impl/UserImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/impl/WpParkImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/impl/WpSpotImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/impl/WpSpotOrderImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/impl/WpSpotOrderImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/dc/service/impl/WpSpotOrderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperImpl/MsGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperImpl/MsOrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperImpl/MsShopcarMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperImpl/MsStoresMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperImpl/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperImpl/WpParkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperImpl/WpSpotMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperImpl/WpSpotOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springMvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/mobileShop.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test/UserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/advertisement/img_ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/user_head/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/user_head/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/user_head/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/css/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/fonts/DroidSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/fonts/DroidSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/images/collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/images/expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/images/explorer_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/images/logo_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/images/pet_store_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/images/wordnik_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/geo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/ko-kr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/translator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/backbone-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/es5-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/handlebars-4.0.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/highlight.9.1.0.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/highlight.9.1.0.pack_extended.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/jquery.ba-bbq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/jquery.slideto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/jquery.wiggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/js-yaml.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/jsoneditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/lodash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/marked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/object-assign-pollyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/sanitize-html.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/lib/swagger-oauth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/o2c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/swagger/swagger-ui.min.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="181" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wjf_coding" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1WT4F8ElWWOlLYe3JiLJYFrYIWR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20400381" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dc.pojo" />
+      <recent name="com.dc.controller" />
+      <recent name="com.dc.base.controller" />
+      <recent name="com.dc.base.listener" />
+      <recent name="com.dc.base.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BackServer\mobileShop\web" />
+      <recent name="D:\BackServer\mobileShop\web\img" />
+      <recent name="D:\BackServer\mobileShop\src\main\base\com\dc\base\util" />
+      <recent name="D:\BackServer\mobileShop\src\test\java" />
+      <recent name="D:\BackServer\mobileShop\src\main\resources\mapperImpl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.271">
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mobileShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.dc.service in mobileShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mobileShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dc.service" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.271" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.271" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mobileShop_Web_exploded/swagger/index.html#/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mobileShop:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mobileShop_Web_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mobileShop" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="35295" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mobileShop:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserTest" />
+      <item itemvalue="JUnit.com.dc.service in mobileShop" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.271" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.com.dc.service in mobileShop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a8deb3a-03d1-4ff0-89fa-e33e0d3a76be" name="Default Changelist" comment="" />
+      <created>1579160143481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579160143481</updated>
+      <workItem from="1579160147066" duration="2290000" />
+      <workItem from="1579409577257" duration="1988000" />
+      <workItem from="1579417445294" duration="22198000" />
+      <workItem from="1579490261250" duration="4328000" />
+      <workItem from="1579579450868" duration="16555000" />
+      <workItem from="1580204057704" duration="149000" />
+      <workItem from="1580304156885" duration="114000" />
+      <workItem from="1580305487977" duration="1301000" />
+      <workItem from="1580474354486" duration="32000" />
+      <workItem from="1580523341684" duration="8343000" />
+      <workItem from="1580551251406" duration="3463000" />
+      <workItem from="1580622658466" duration="111000" />
+      <workItem from="1580704511792" duration="1674000" />
+      <workItem from="1580803600020" duration="414000" />
+      <workItem from="1580804346507" duration="849000" />
+      <workItem from="1580890674758" duration="83000" />
+      <workItem from="1580962700599" duration="468000" />
+      <workItem from="1581057431554" duration="1993000" />
+      <workItem from="1581914058887" duration="1776000" />
+      <workItem from="1582361314356" duration="7949000" />
+      <workItem from="1582427043906" duration="18424000" />
+      <workItem from="1582458551841" duration="456000" />
+      <workItem from="1582515251066" duration="603000" />
+      <workItem from="1582594667508" duration="8981000" />
+      <workItem from="1582635147148" duration="1172000" />
+      <workItem from="1582689839243" duration="10348000" />
+      <workItem from="1582789679389" duration="2673000" />
+      <workItem from="1582962970929" duration="4984000" />
+      <workItem from="1583039735891" duration="12409000" />
+      <workItem from="1583721039120" duration="6735000" />
+      <workItem from="1583728920279" duration="374000" />
+      <workItem from="1584023361315" duration="124000" />
+      <workItem from="1585743562225" duration="2005000" />
+      <workItem from="1585810560026" duration="20000" />
+      <workItem from="1585812504366" duration="31000" />
+      <workItem from="1586328723543" duration="611000" />
+      <workItem from="1586404085949" duration="1259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first idea project commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first idea project commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mobileShop$Tomcat_9_0_271.ic" NAME="Tomcat 9.0.271 Coverage Results" MODIFIED="1583056350421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/mobileShop$com_dc_service_in_mobileShop.ic" NAME="com.dc.service in mobileShop Coverage Results" MODIFIED="1579417854353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dc.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>

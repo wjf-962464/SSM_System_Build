@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dc.dao.WpSpotOrderDao">
+    <select id="getIfHaveOrder" parameterType="int" resultType="com.dc.pojo.WpSpotOrder">
+        select * from wp_spot_order where user_id=#{user_id} and order_status!=0;
+    </select>
+    <select id="getOrderList" parameterType="int" resultType="com.dc.pojo.WpSpotOrder">
+        select * from wp_spot_order where user_id=#{user_id} order by create_time desc;
+    </select>
+
+    <update id="cancelOrder" parameterType="int">
+        update wp_spot_order set order_status=0,user_status=0 where user_id=#{user_id} and order_status=1;
+    </update>
+
+    <update id="overtimeOrder" parameterType="int">
+        update wp_spot_order set order_status=0,user_status=-1 where user_id=#{user_id} and order_status=1;
+    </update>
+
+    <update id="submitOrder" parameterType="int">
+        update wp_spot_order set user_status=3,park_time=now() where user_id=#{user_id} and order_status=1;
+    </update>
+    <update id="completeOrder" parameterType="int">
+        update wp_spot_order set order_status=0,user_status=1 where user_id=#{user_id} and order_status=1 and user_status=3;
+    </update>
+    <insert id="addOrder" parameterType="int">
+        insert into wp_spot_order(user_id,spot_id,create_time,order_status)
+        values (#{user_id},#{spot_id},now(),1);
+    </insert>
+</mapper>

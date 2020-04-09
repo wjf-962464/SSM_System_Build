@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dc.dao.MsShopcarDao">
+    <insert id="createShopCar" parameterType="int" useGeneratedKeys="true">
+        insert into ms_shopcars(user_id,good_id_list,good_amount_list,create_time,last_modify)values
+        (#{user_id},"","",now(),now());
+    </insert>
+
+    <select id="getShopCar" parameterType="int" resultType="com.dc.pojo.MsShopcar">
+        select * from ms_shopcars where user_id=#{user_id};
+    </select>
+
+    <update id="upShopCar" parameterType="com.dc.pojo.MsShopcar">
+        update ms_shopcars set good_id_list=#{good_id_list},good_amount_list=#{good_amount_list},last_modify=now() where shopcar_id=#{shopcar_id};
+    </update>
+</mapper>

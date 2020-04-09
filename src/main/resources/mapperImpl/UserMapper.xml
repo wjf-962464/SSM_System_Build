@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dc.dao.UserDao">
+
+    <select id="userLogin" parameterType="string" resultType="com.dc.pojo.User">
+        select * from ms_user where user_iphone=#{account};
+    </select>
+
+    <select id="findUserByLoginFlag" parameterType="string" resultType="com.dc.pojo.User">
+        select * from ms_user where login_flag=#{login_flag};
+    </select>
+
+    <update id="upUserLogin" parameterType="com.dc.pojo.User">
+        update ms_user set last_login_time=now(),login_flag=#{login_flag} where user_id=#{user_id};
+    </update>
+    <update id="clearLastLoginTime" parameterType="int">
+        update ms_user set last_login_time=NULL where user_id=#{id};
+    </update>
+    <insert id="userRegister" parameterType="string" useGeneratedKeys="true">
+        insert into ms_user(user_iphone,user_pwd,register_time)values
+        (#{account},#{pwd},now());
+    </insert>
+</mapper>

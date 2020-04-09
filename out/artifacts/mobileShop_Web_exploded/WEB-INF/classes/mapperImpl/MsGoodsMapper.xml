@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dc.dao.MsGoodsDao">
+    <select id="findById" parameterType="int" resultType="com.dc.pojo.MsGoods">
+        select * from ms_goods where good_id=#{id};
+    </select>
+    <update id="addInventory" parameterType="int">
+        update ms_goods set inventory=#{inventory} where good_id=#{id};
+    </update>
+    <select id="getGoodsList" resultType="com.dc.pojo.MsGoods">
+        select * from ms_goods order by rank desc;
+    </select>
+    <select id="getListByKeyword" parameterType="String" resultType="com.dc.pojo.MsGoods">
+        select * from ms_goods where good_status=1 and name like concat('%',#{keyword,jdbcType=VARCHAR},'%') order by rank desc;
+    </select>
+</mapper>

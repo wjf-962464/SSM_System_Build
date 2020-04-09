@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dc.dao.WpParkDao">
+    <select id="findParkById" resultType="com.dc.pojo.WpPark" parameterType="int">
+        select * from wp_parks where park_id=#{park_id};
+    </select>
+    <select id="findParkByPoi" resultType="com.dc.pojo.WpPark" parameterType="String">
+        select * from wp_parks where poi_id=#{poi_id};
+    </select>
+    <select id="getParkList" resultType="com.dc.pojo.WpPark">
+        select * from wp_parks where park_status=1 order by park_grade desc;
+    </select>
+
+    <update id="upRemainSpot" parameterType="int">
+        update wp_parks set spot_remain=#{remain_spot},last_modify=now() where park_id=#{park_id};
+    </update>
+    <update id="upParkGrade" parameterType="int">
+        update wp_parks set park_grade=#{park_grade},last_modify=now() where park_id=#{park_id};
+    </update>
+    <update id="upTotalSpot" parameterType="int">
+        update wp_parks set spot_total=#{total_spot},last_modify=now() where park_id=#{park_id};
+    </update>
+
+    <insert id="parkRegister" parameterType="com.dc.pojo.WpPark" useGeneratedKeys="true">
+        insert into wp_parks(park_name,poi_id,park_gps,park_info,spot_remain,spot_total,create_time,last_modify)values
+        (#{park_name},#{poi_id},#{park_gps},#{park_info},#{spot_total},#{spot_total},now(),now());
+    </insert>
+    <select id="searchParkList" parameterType="String" resultType="com.dc.pojo.WpPark">
+        select * from wp_parks where park_status=1 and (park_name like concat('%',#{keyword,jdbcType=VARCHAR},'%') or park_info like concat('%',#{keyword,jdbcType=VARCHAR},'%')) order by park_grade desc;
+    </select>
+</mapper>
